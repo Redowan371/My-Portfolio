@@ -12,7 +12,7 @@ p{
 span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -55,4 +55,39 @@ section{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.full-stact-text{
+    width: 38%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding:0 5%;
+    border-left: 4px solid tomato;
+    
+}
+.baby-text{
+     width: 38%;
+     margin-left: 2%;
+     margin-right: 5%;
+     padding:0 5%;
+     box-shadow: 10px 10px 30px gray;
+     border-left: 7px solid;
+     border-image: linear-gradient(blue, cyan);
+     border-image-slice:1;     
+    
+}
+.dev-tex{
+    font-size: 40px;
+}
+.color{
+    color: orange;
+}
+.experiation-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+    margin-top: 80px;
 }
